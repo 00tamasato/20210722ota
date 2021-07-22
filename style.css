@@ -1,0 +1,260 @@
+.head{
+  display: flex;
+  margin: 20px;
+}
+
+.headName{
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.headList{
+list-style: none;
+text-decoration: none;
+font-weight: bold;
+text-align: right;
+}
+
+.headList li {
+  display: inline-block;
+  margin-left:30px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+.headimg{
+  width: 100%;
+}
+
+.headPicture{
+  position: relative;
+}
+
+.PictureText{
+  position: absolute;
+  top: 40%;
+  right: 30%;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.PictureText2{
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.TechThought{
+  background: black;
+  padding: 60px;
+}
+
+.ThoughtText{
+  margin: 30px;
+  color: aliceblue;
+  font-size: 35px;
+  text-align: left;
+}
+
+.ThoughtText2{
+  color: aliceblue;
+  font-size: 19px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.ServiseTitle{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.TechServise{
+  margin: 10px 70px 30px 70px ;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ServiseItem{
+width: 49%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.ServiseItem2{
+width: 49%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.ServiseItem4{
+width: 49%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.ServiseItem3{
+width: 49%;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.Item{
+  width: 100%;
+}
+
+.Item2{
+  width: 100%;
+}
+
+.Item3{
+  width: 100%;
+}
+
+.Item4{
+  width: 100%;
+}
+
+.Itemtitle{
+  font-weight: bold;
+  margin: 5px;
+}
+
+.Servisebutton{
+  width: 300px;
+  height: 40px;
+  background: crimson;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.buttonText{
+  margin: 10px;
+  color: aliceblue;
+}
+
+.news{
+  background: rgb(32, 32, 32);
+  padding: 50px;
+}
+
+.newscontent{
+  width: 90%;
+  height: 50px;
+  background: white;
+  margin: 10px;
+}
+
+.contetText{
+  padding: 20px;
+}
+
+.newsText{
+color: white;
+font-size: 40px;
+font-weight: bold;
+}
+
+.blog{
+  margin: 10%;
+}
+
+.blogText{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+margin: 30px;
+}
+
+.blogcontent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogcontent1{
+  width: 33%;
+}
+
+.content1img{
+  width: 100%;
+}
+
+.contenttext{
+  font-weight: bold;
+}
+
+.newsbutton{
+  width: 200px;
+  height: 25px;
+  background: crimson;
+  color: aliceblue;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.company{
+  width: 50%;
+  height: 200px;
+  background: crimson;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.recruit{
+  width: 50%;
+  height: 200px;
+  background: darkgrey;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.informaition{
+  display: flex;
+  flex-direction: row;
+}
+
+.last{
+  background: rgb(218, 217, 213);
+  height: 300px;
+  padding: 40px;
+}
+
+.inquiry{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.lastcontent{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.lastbutton{
+  width: 200px;
+  height: 30px;
+  background: crimson;
+  color: aliceblue;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
