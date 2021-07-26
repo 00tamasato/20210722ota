@@ -90,11 +90,23 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .ServiseItem{
+  width: 100%;
+  }
+}
+
 .ServiseItem2{
 width: 49%;
 margin-top: 10px;
 margin-bottom: 10px;
 }
+@media screen and (max-width: 480px) {
+  .ServiseItem2{
+  width: 100%;
+  }
+}
+
 
 .ServiseItem4{
 width: 49%;
@@ -102,11 +114,25 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .ServiseItem3{
+  width: 100%;
+  }
+}
+
+
 .ServiseItem3{
 width: 49%;
 margin-top: 10px;
 margin-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .ServiseItem4{
+  width: 100%;
+  }
+}
+
 
 .Item{
   width: 100%;
@@ -179,11 +205,19 @@ margin: 30px;
 .blogcontent{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .blogcontent1{
   width: 33%;
 }
+
+@media screen and (max-width: 480px) {
+  .blogcontent1{
+  width: 100%;
+}
+}
+
 
 .content1img{
   width: 100%;
@@ -205,31 +239,42 @@ margin: 30px;
   margin-bottom: 40px;
 }
 
-.company{
+.company1{
   width: 50%;
   height: 200px;
   background: crimson;
+}
+
+.company{
   color: aliceblue;
   font-size: 30px;
   text-align: center;
-  margin: 0 auto;
-  display: block;
+  margin-top: 10%;
+  margin-left: 35%;
+  display: inline-block;
 }
 
 .recruit{
   width: 50%;
   height: 200px;
   background: darkgrey;
+}
+
+.recruit1{
   color: aliceblue;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-top: 10%;
+  margin-left: 35%;
+  display: inline-block;
 }
 
 .informaition{
   display: flex;
   flex-direction: row;
+  margin-bottom: 70px;
 }
+
 
 .last{
   background: rgb(218, 217, 213);
@@ -257,4 +302,15 @@ margin: 30px;
   margin: 0 auto;
   display: block;
   margin-top: 50px;
+}
+
+.buttonText2{
+  margin: 5px;
+  display: inline-block;
+}
+
+@media screen and(max-width:480px) {
+  .PictureText{
+  font-size: 25px;
+  }
 }
