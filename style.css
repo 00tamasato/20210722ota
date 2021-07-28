@@ -309,8 +309,86 @@ margin: 30px;
   display: inline-block;
 }
 
-@media screen and(max-width:480px) {
-  .PictureText{
-  font-size: 25px;
+@media screen and (max-width:480px) {
+  .headList{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left:-100%;
+    background: rgb(170, 165, 165);
+    transition: 1s;
+    text-align: center;
+    }
+  
+  .menu{
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    left: 85%;
+    top: -50px;
   }
+
+  .menuLinetop,
+  .menuLinemiddle,
+  .menuLinebottom {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  .menuLinetop{
+    top: 0;
+  }
+
+  .menuLinemiddle{
+    top: 14px;
+  }
+
+  .menuLinebottom{
+    bottom: 0;
+  }
+
+  .menu.open span:nth-of-type(1){
+    top: 14px;
+    transform:rotate(45deg);
+  }
+
+.menu.open span:nth-of-type(2){
+    opacity: 0;
+  }
+
+.menu.open span:nth-of-type(3){
+    top: 14px;
+    transform:rotate(-45deg);
+  }
+
+  .in{
+  transform: translateX(100%);
+}
+
+  .PictureText{
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+  }
+  .PictureText2{
+    font-size: 20px;
+    position: absolute;
+  }
+  .ThoughtText{
+    margin: 20px;
+    color: aliceblue;
+    font-size: 24px;
+  }
+  .contetText{
+    padding: 15px;
+    font-size: 13px;
+  }
+
 }
